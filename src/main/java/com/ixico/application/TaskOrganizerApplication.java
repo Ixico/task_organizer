@@ -1,13 +1,13 @@
 package com.ixico.application;
 
-import org.springframework.boot.SpringApplication;
+import javafx.application.Application;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class TaskOrganizerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TaskOrganizerApplication.class, args);
+        Application.launch(UserInterfaceApplication.class, args);
     }
 
 }
